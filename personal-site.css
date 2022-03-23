@@ -1,0 +1,31 @@
+body{
+    background-color: #ECE2D0
+}
+header{
+    background-color: #CEBEBE;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: Satisfy;
+    font-size: 50px;
+    justify-content: center;
+    color: #D5B9B2;
+}
+nav{
+    background-color: #6D2E46;
+}
+.nav-item{
+    color: #D5B9B2;
+    font-family: Dosis, sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+
+}
+
+.nav-link{
+    color: #D5B9B2;
+}
+
+
