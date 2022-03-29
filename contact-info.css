@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: center;
+    color: #CEBEBE;
+    font-family: Dosis;
+    margin-top: 20px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    color: #CEBEBE;
+    font-family: Dosis;
+    margin-top: 20px;
+    font-size: 16px;
+}
