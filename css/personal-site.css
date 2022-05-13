@@ -298,7 +298,7 @@ img {
 }
 
 .home_scroll{
-   /* display: none;*/
+   display: none;
 }
 
 .home_scroll_button{
@@ -338,9 +338,19 @@ img {
 
 .button:hover{
     background-color: var(--first-color-alt);
-
 }
 
+.button_icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
+
+}
 
 /*==================== ABOUT ====================*/
 
