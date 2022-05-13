@@ -29,23 +29,18 @@ if (navToggle) {
 
 /*===== MENU HIDDEN =====*/
 
-if (navClose) {
-    navClose.addEventListener('click',
-        () => {
+if(navClose){
+    navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu')
     })
 }
 
-console.log(navClose);
-
-
 /*==================== REMOVE MENU MOBILE ====================*/
 
-const navLink = document.querySelectorAll('.nav__link')
+const navLink = document.querySelectorAll('.nav_link')
 
 function linkAction() {
     const navMenu = document.getElementById('nav-menu')
-    // When we click on each nav__link, we remove the show-menu class
     navMenu.classList.remove('show-menu')
 }
 
