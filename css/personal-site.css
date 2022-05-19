@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Chakra+Petch&family=Josefin+Sans:wght@300&family=Monoton&family=Play&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
+body{
+    justify-content: center;
+}
+
 :root {
     --header-height: 3rem;
 
@@ -273,17 +277,31 @@ img {
 .home_blob{
     width: 200px;
     fill: var(--first-color);
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
 }
 .home_blob-img{
     width: 200px;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .home_data{
     grid-column: 1/3;
+    justify-self: center;
 }
 
 .home_title{
     font-size: var(--big-font-size);
+    text-align: center;
 }
 
 .home__subtitle{
@@ -295,15 +313,19 @@ img {
 
 .home_description{
     margin-bottom: var(--mb-2);
+    text-align: center;
+    align-items: center;
 }
 
 .home_scroll{
    display: none;
+    text-align: center;
 }
 
 .home_scroll_button{
     color: var(--first-color);
     transition: .3s;
+    text-align: center;
 }
 
 .home_scroll_button:hover{
@@ -325,6 +347,10 @@ img {
     font-size: 1.25rem;
 }
 
+.hom_img{
+    justify-self: center;
+}
+
 
 /*==================== BUTTONS ====================*/
 .button{
@@ -334,6 +360,7 @@ img {
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+    justify-self: center;
 }
 
 .button:hover{
@@ -344,16 +371,62 @@ img {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
 }
 
-.button--flex{
+.button-flex{
     display: inline-flex;
     align-items: center;
+    justify-self: center;
 
+}
+
+#contact{
+    justify-self: center;
 }
 
 /*==================== ABOUT ====================*/
+.about_img{
+    width: 200px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
 
+}
+
+.about_description{
+    text-align: center;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about_info-name{
+    font-size: var(--smaller-font-size);
+}
+
+.about_info-title{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--title-color);
+}
+
+.about_info-title,
+.about_info-name{
+    display: block;
+    text-align: center;
+}
+
+.about_buttons{
+    display: flex;
+    justify-content: center;
+}
 
 /*==================== SKILLS ====================*/
 
